@@ -11,7 +11,7 @@ cran_mirror:
 docker_image:
 - condaforge/linux-anvil-comp7
 libtiff:
-- 4.0.10
+- 4.1.0
 pin_run_as_build:
   libtiff:
     max_pin: x
