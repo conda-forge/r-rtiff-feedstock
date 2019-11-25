@@ -1,4 +1,4 @@
-{% set version = '1.4.6' %}
+{% set version = "1.4.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rtiff_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rtiff/rtiff_{{ version }}.tar.gz
-  sha256: 9ec7c097d44163db5bf6cc9d0749a6d3da4f9f54172d987e3afe9b1fe2cce426
+  sha256: 0bf7ae945d6867f9caffafd49c468b46bd5e3bbc50ff3322b4374e6497840c50
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
