@@ -1,13 +1,19 @@
+c_compiler:
+- gcc
+c_compiler_version:
+- '9'
+cdt_name:
+- cos6
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
 cran_mirror:
 - https://cran.r-project.org
+docker_image:
+- quay.io/condaforge/linux-anvil-comp7
 libtiff:
-- 4.1.0
-m2w64_c_compiler:
-- m2w64-toolchain
+- '4'
 pin_run_as_build:
   libtiff:
     max_pin: x
@@ -15,6 +21,9 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 r_base:
-- '3.6'
+- '4.1'
 target_platform:
-- win-64
+- linux-64
+zip_keys:
+- - cdt_name
+  - docker_image
