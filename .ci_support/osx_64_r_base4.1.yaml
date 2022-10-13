@@ -3,9 +3,9 @@ MACOSX_DEPLOYMENT_TARGET:
 c_compiler:
 - clang
 c_compiler_version:
-- '11'
+- '14'
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 cran_mirror:
@@ -15,8 +15,6 @@ libtiff:
 macos_machine:
 - x86_64-apple-darwin13.4.0
 pin_run_as_build:
-  libtiff:
-    max_pin: x
   r-base:
     min_pin: x.x
     max_pin: x.x
