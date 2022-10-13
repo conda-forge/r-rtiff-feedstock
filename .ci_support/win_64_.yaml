@@ -1,5 +1,5 @@
 channel_sources:
-- conda-forge,defaults
+- conda-forge
 channel_targets:
 - conda-forge main
 cran_mirror:
@@ -9,12 +9,10 @@ libtiff:
 m2w64_c_compiler:
 - m2w64-toolchain
 pin_run_as_build:
-  libtiff:
-    max_pin: x
   r-base:
     min_pin: x.x
     max_pin: x.x
 r_base:
-- '4.0'
+- '4.1'
 target_platform:
 - win-64
