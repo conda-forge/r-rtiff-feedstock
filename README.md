@@ -3,6 +3,7 @@ About r-rtiff-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rtiff-feedstock/blob/main/LICENSE.txt)
 
+
 About r-rtiff
 -------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=rtiff
 Package license: GPL-3.0-only
 
 Summary: Reads and writes TIFF format images and returns them as a pixmap object. Because the resulting object can be very large for even modestly sized TIFF images, images can be reduced as they are read for improved performance.  This package is a wrapper around libtiff (www.libtiff.org), on which it depends (i.e. the libtiff shared library must be on your PATH for the binary to work, and tiffio.h must be on your system to build the package from source). By using libtiff's highlevel TIFFReadRGBAImage function, this package inherently supports a wide range of image formats and compression schemes. This package also provides an implementation of the Ridler Autothresholding algorithm for easy generation of binary masks as described in Ridler & Calvard (1978) <doi:10.1109/TSMC.1978.4310039>.
+
 About r-rtiff
 -------------
 
